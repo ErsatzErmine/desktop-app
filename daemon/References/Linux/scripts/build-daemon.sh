@@ -33,7 +33,7 @@ mkdir -p $OUT_DIR
 # version info variables
 VERSION=""
 DATE="$(date "+%Y-%m-%d")"
-COMMIT="$(git rev-list -1 HEAD)"
+COMMIT="xxx"
 
 # reading version info from arguments
 while getopts ":v:" opt; do
