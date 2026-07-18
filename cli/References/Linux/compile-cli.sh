@@ -34,7 +34,7 @@ mkdir -p $OUT_DIR
 # version info variables
 VERSION=""
 DATE="$(date "+%Y-%m-%d")"
-COMMIT="xxxx"
+COMMIT="yyyy"
 
 # reading version info from arguments
 while getopts ":v:" opt; do
