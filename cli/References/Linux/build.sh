@@ -87,7 +87,7 @@ CheckLastResult "Failed to determine location of IVPN Daemon sources. Plase chec
 # version info variables
 VERSION=""
 DATE="$(date "+%Y-%m-%d")"
-COMMIT="$(git rev-list -1 HEAD)"
+COMMIT="yyyy"
 
 # reading version info from arguments
 while getopts ":v:" opt; do
